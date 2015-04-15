@@ -23,3 +23,13 @@ FAR FUTURE
 -Beacon/Raven functionality(queue commands, sleep interval)
 -Add SCET as backup
 
+INSTALLATION
+1. Install Veil-Evasion (https://github.com/Veil-Framework/Veil-Evasion)
+
+2. Make setup.sh executable:
+chmod 755 setup.sh
+
+3. Run setup.sh with the absolute path to your Veil-Evasion folder
+./setup.sh /root/tools/Veil-Evasion/ 
+
+NOTE: This works with Veil-Evasion 2.17.0. You may run into an issue with older versions of Veil-Evasion due to the implementation of 64-bit compatibility with the current version.
