@@ -9,7 +9,7 @@ class Payload:
 
     def __init__(self):
         # Required options
-        self.description = "TrustCC custom payload"
+        self.description = "Custom payload"
         self.language = "python"
         self.extension = "py"
         self.rating = "Excellent"
